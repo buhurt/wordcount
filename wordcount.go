@@ -4,7 +4,7 @@ import (
 	"strings"
 )
 
-func getCount(wordLine string) int {
+func GetCount(wordLine string) int {
 	words := strings.Split(wordLine, " ")
 	return len(words)
 }
